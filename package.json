@@ -1,6 +1,6 @@
 {
-  "name": "magdego-server",
-  "description": "The Magdego backend",
+  "name": "magdegone-server",
+  "description": "The MagdeGone backend",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "body-parser": "1.7.0",
     "cheerio": "0.17.0",
     "cors": "2.5.2",
-    "ejs": "2.1.4",
+    "ejs": "2.5.5",
     "express": "4.8.7",
     "lodash": "^3.0.1",
     "node-env": "0.1.6",

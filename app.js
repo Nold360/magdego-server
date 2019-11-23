@@ -39,8 +39,8 @@ var fs = require('fs');
 const isProduction = global.process.env.NODE_ENV === 'production';
 
 if (isProduction) {
-  var hskey = fs.readFileSync('../.config/letsencrypt/live/api.magdego.de/privkey.pem', 'utf8');
-  var hscert = fs.readFileSync('../.config/letsencrypt/live/api.magdego.de/cert.pem', 'utf8');
+  var hskey = fs.readFileSync('/path/to/your/ssl/key.pem', 'utf8');
+  var hscert = fs.readFileSync('/path/to/your/ssl/cert.pem', 'utf8');
   var options = {
       key: hskey,
       cert: hscert

@@ -67,7 +67,7 @@
 
       function handleNoGeolocation(errorFlag) {
         if ( errorFlag ) {
-          var content = 'Wir haben keine GPS-Daten von dir erhalten und können dir keine Abfahtszeiten liefern.<br><br>Du kannst dir aber unsere <a href="https://magdego.de/demo">Demo</a> ansehen.';
+          var content = 'Wir haben keine GPS-Daten von dir erhalten und können dir keine Abfahtszeiten liefern.<br><br>Du kannst dir aber unsere <a href="/demo">Demo</a> ansehen.';
         } else {
           var content = 'Dein Browser unterstütz keine Geolocation. Bitte update/wechsel dein Browser/Betriebssystem.';
         }
@@ -90,7 +90,7 @@
 
           var s = '';
           s += '<div data-role="page" id="page' + index + '">';
-          s += '<header><h1><img src="icon_smaller.png" alt=""><br/>MagdeGo</h1></header>';
+          s += '<header><h1><img src="icon_smaller.png" alt=""><br/>MagdeGone</h1></header>';
 
           s += '<h2>' + station.station_info +'</h2>';
           s += '<table data-role="table" class="fnord-breakpoint"><thead><tr><th>Abf.</th><th> </th><th>Richtung</th><th>Linie</th></tr></thead>';
